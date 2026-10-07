@@ -1,0 +1,37 @@
+# Student Information Management REST API
+
+A framework-based REST API for managing student information, academic programs, courses, academic terms, course offerings, enrollments, and grades.
+
+## Project Overview
+
+This project was developed for **Special Topics in SD, Laboratory 2** as an AI-assisted framework-based REST API development activity.
+
+The system provides a RESTful backend for Student Information Management using **FastAPI**, **SQLAlchemy**, and **PostgreSQL**. It includes authentication, protected API routes, CRUD operations, validation, filtering, sorting, pagination, enrollment management, and grade management.
+
+## Technologies Used
+
+* Python
+* FastAPI
+* SQLAlchemy
+* PostgreSQL
+* Pydantic
+* Alembic
+* JWT authentication
+* pwdlib for password hashing
+* Pytest
+* Postman
+* Swagger UI / OpenAPI
+
+## Main Features
+
+### Authentication
+
+* User login using username and password
+* JWT-based authentication
+* Protected API endpoints
+* Password hashing
+* Role information for Administrator, Registrar/Staff, Instructor, and Student accounts
+
+### Student Management
+
+* Create, retrieve,
